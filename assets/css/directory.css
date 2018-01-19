@@ -1,0 +1,376 @@
+/* BODY */
+body {
+    background: -moz-linear-gradient(left, rgba(92,92,92,1) 0%, rgba(192,28,28,1) 50%, rgba(92,92,92,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(92,92,92,1) 0%, rgba(105,80,159,1) 50%, rgba(92,92,92,1) 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Container */
+.container {
+    border-radius: 5px;
+    border: 0px solid #888888;
+    background-color: rgba(224, 224, 224, 0.4);
+    padding-top: 10px;
+    opacity: 0%;
+}
+
+/* Well */
+.well {
+    padding-top: 0;
+    padding-bottom: 10px;
+    background-color: #3c763d;
+    border: 1px solid white;
+    box-shadow: 0px 2px 5px #000000;
+}
+    
+.well h1 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.retro-noise {
+    float: left;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    box-shadow: 1px 2px 5px black;
+    background: #444444;
+}
+
+.retro-noise:visited, .retro-noise:hover, .retro-noise:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.retro-noise:active {
+    box-shadow: 0px 0px 2px black;
+}
+
+/* Theme Settings */
+.purple-item {
+    color: #4D3C76;
+}
+
+.green-item {
+    color: #3C763D;
+}
+
+.red-item {
+    color: #91242F;
+}
+
+.blue-item {
+    color: #008CDD;
+}
+
+.theme-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.theme-menu {
+    min-width: 0px;
+    float: right;
+    position: relative;
+    margin-top: -4px;
+    margin-right: 3px;
+    background-color: rgba(255, 255, 255, .3);
+    box-shadow: none;
+}
+
+.theme-settings {
+    float: right;
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 2px 5px;
+    box-shadow: 1px 2px 5px black;
+    background: #444444;
+}
+
+.theme-settings:active {
+    box-shadow: 0px 0px 2px black;
+}
+
+.fa:active, .fa:focus {
+    color: white;
+}
+
+a.theme-settings:hover, a.theme-settings:focus {
+    color: white;
+}
+
+/* Theme Buttons */
+.purplebutton {
+    background-color: #4D3C76;
+    color: #4D3C76;
+}
+    
+.redbutton {
+    background-color: #91242F;
+    color: #91242F;
+}
+    
+.greenbutton {
+    background-color: #3C763D;
+    color: #3C763D;
+}
+    
+.bluebutton {
+    background-color: #008CDD;
+    color: #008CDD;
+}
+
+.knicksbutton {
+    background-color: #FF6B35;
+    color: #FF6B35;
+}
+
+.trailblazersbutton {
+    background-color: #CF1216;
+    color: #CF1216;
+}
+
+.kingsbutton {
+    background-color: #5A2D83;
+    color: #5A2D83;
+}
+    
+.themebutton {
+    outline: 0;
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 20px;
+    width: 25px;
+    height: 25px;
+}
+
+.themebutton:hover {
+    box-shadow: 0px 0px 5px black inset;   
+}
+
+.themebutton:active {
+    border: 1px solid white;
+}
+    
+.buttonselected {
+    display: none;
+}
+
+/* Navigation */
+.navbar-inverse {
+    background-color: #444444;
+    border-color: white;
+    box-shadow: 0px 2px 5px #000000;
+}
+
+.navbar-brand-right {
+    float: right;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:visited {
+    color: white;
+    outline: 0;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:visited {
+    color: white;
+}
+
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav > li > a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav .open a:hover, .navbar-inverse .navbar-nav .open a:focus {
+    color: black;
+    background-color: White;
+    text-decoration: underline;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu {
+    background-color: #444444;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a {
+    background-color: #444444;
+    color: white;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu li a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Search */
+.search-heading {
+    color: white;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.search-bar {
+    color: #444444;
+    border-radius: 4px;
+    border: 1px solid #444444;
+    padding-left: 3px;
+    outline: 0;
+}
+
+.search-button {
+    border-radius: 4px;
+    color: white;
+    background-color: #3c763d;
+    border: 1px solid gray;
+    outline: 0;
+    -webkit-transition: box-shadow 175ms ease-in-out;
+    -moz-transition: box-shadow 175ms ease-in-out;
+    -o-transition: box-shadow 175ms ease-in-out;
+    transition: box-shadow 175ms ease-in-out;
+}
+
+.search-button:hover {
+    box-shadow: 0px 0px 3px black inset;
+}
+
+.search-button:active {
+    box-shadow: 1px 1px 5px #000000 inset;
+}
+
+.search-form {
+    margin-bottom: 15px;
+}
+
+/* Panel */
+.panel {
+    background-color: #444444;
+    box-shadow: 0px 1px 5px #000000;
+    -webkit-transition: background-color 250ms ease-in-out, box-shadow 150ms ease-in-out;
+    -moz-transition: background-color 250ms ease-in-out, box-shadow 150ms ease-in-out;
+    -o-transition: background-color 250ms ease-in-out, box-shadow 150ms ease-in-out;
+    transition: background-color 250ms ease-in-out, box-shadow 150ms ease-in-out;
+}
+
+.panel:hover {
+    background-color: #666666;
+    box-shadow: 0px 5px 15px #222222;
+}
+
+.panel-link {
+    float: right;
+    background: #444444;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+
+.panel-link:hover {
+    color: #444444;
+    background: white;
+    border: 1px solid #444444;
+}
+
+.panel-link:active {
+    box-shadow: 0px 0px 5px #444 inset;
+}
+
+.panel-success {
+    border: 1px solid white;
+}
+
+.panel-success .panel-heading {
+    background-color: #3c763d;
+    color: white;
+    border-color: white;
+}
+
+.panel li, .panel li a {
+    color: white;
+    outline: 0;
+}
+
+.panel li a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.panel li a:focus {
+    color: black;
+}
+
+/* Table */
+table {
+    width: 100%;
+    margin-bottom: 15px;
+    box-shadow: 1px 2px 5px #000000;
+}
+
+td, th {
+    border: 1px solid #444444;
+    padding: 10px;
+    background: #DDDDDD;
+}
+
+tr:nth-child(even) td {
+    background-color: #888888;
+    color: white;
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+    text-align: center;
+}
+
+.template-canvas {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 10px;
+}
+
+/* Contact */
+.contact-title {
+    color: white;
+}
+
+.contact-label {
+    color: white;
+}
+
+.contact-input {
+    color: #444444;
+    max-width: 100%;
+}
+
+#create-page-submit {
+    margin-bottom: 15px;
+}
+
+/* 
+Purple: #4D3C76
+        rgba(105,80,159,1)
+
+Green:  #3C763D
+        rgba(60,118,61,1)
+
+Blue:   #008CDD
+        rgba(0,140,221,1)
+
+Red:    #91242F
+        rgba(145,36,47,1)
+
+Yellow: #FFD757
+
+Trailblazers: #CF1216
+        rgba(0,0,0,1)
+
+Knicks: #F68428
+        rgba(0,140,221,1)
+
+Kings:  #5A2D83
+        rgba(0, 0, 0, 1)
+
+Mint:   #AEF6C7
+        rgba(0, 0, 0, 1)
+*/
